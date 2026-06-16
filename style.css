@@ -1,0 +1,64 @@
+body{
+    background-color: #EFECE7;
+}
+.wrapper{
+    font-family: "Century Gothic";
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h1{
+    color: #838e8f;
+}
+.title h2{
+    color: #395b68;
+    font-size: 30px;
+}
+.title h3{
+    color: #738488;
+}
+
+.show{
+    background-color: #E1DDD7;
+    margin-inline: 40px;
+    margin-top: 30px;
+    padding-block: 5px;
+    padding-inline: 20px;
+    border-radius: 20px;
+}
+
+h2{
+    color: #395b68;
+}
+h3{
+    color: #738488;
+}
+
+h4{
+    color: #575757;
+}
+
+.show_1_img{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 60px;
+}
+
+/*.show_1_img_1{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.img_1{
+    width: 500px;
+    border-radius: 20px;
+}
