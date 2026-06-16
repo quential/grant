@@ -31,6 +31,7 @@ body{
     padding-block: 5px;
     padding-inline: 20px;
     border-radius: 20px;
+    padding-bottom: 20px;
 }
 
 h2{
@@ -46,6 +47,7 @@ h4{
 
 .show_1_img{
     padding-top: 10px;
+    /*padding-bottom: 15px;*/
     display: flex;
     align-items: center;
     justify-content: left;
@@ -58,7 +60,117 @@ h4{
 /*    flex-direction: column;*/
 /*}*/
 
-.img_1{
+.img_scores{
     width: 500px;
-    border-radius: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.img_scores:hover{
+    transform: scale(1.01);
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+    align-items: center;
+    justify-content: center;
+}
+.modal-content{
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal img{
+    max-height: 90vh;
+    max-width: 90vw;
+    object-fit: contain;
+}
+
+
+.show_2_img{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 60px;
+
+}
+.img_devstorm{
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 15px;
+}
+
+.img_devstorm:hover{
+    transform: scale(1.01);
+}
+
+.img_vkactf{
+    width: 500px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 15px;
+}
+.img_vkactf:hover{
+    transform: scale(1.01);
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.self_img_site{
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 15px;
+}
+.self_img_site:hover{
+    transform: scale(1.01);
+}
+
+.show_3_img{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 60px;
+}
+
+.img_bage{
+    width: 500px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 15px;
+}
+.img_bage:hover{
+    transform: scale(1.01);
 }
